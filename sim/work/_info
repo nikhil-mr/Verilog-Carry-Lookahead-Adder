@@ -1,0 +1,74 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dN:/Maven Silicon/try/1 bit carry look ahead adder/sim
+vcla16
+Z0 !s110 1786078219
+!i10b 1
+!s100 F4=n@?]REjldWk`U]X;cV1
+II[K8Q]OzZOCN^CnPTP8]b0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dN:/Maven Silicon/try/16 bit carry look ahead adder/sim
+w1786077659
+8N:/Maven Silicon/try/16 bit carry look ahead adder/rtl/cla16.v
+FN:/Maven Silicon/try/16 bit carry look ahead adder/rtl/cla16.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1786078219.000000
+!s107 N:/Maven Silicon/try/16 bit carry look ahead adder/rtl/cla16.v|
+!s90 -reportprogress|300|-work|work|-stats=none|N:/Maven Silicon/try/16 bit carry look ahead adder/rtl/cla16.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vcla16Tb
+R0
+!i10b 1
+!s100 Kfk<MFLO8`k=O`@[8kB`H2
+IQN3S6C>T8f9lYK<@7KS2I1
+R1
+R2
+w1786078217
+8N:/Maven Silicon/try/16 bit carry look ahead adder/tb/cla16Tb.v
+FN:/Maven Silicon/try/16 bit carry look ahead adder/tb/cla16Tb.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 N:/Maven Silicon/try/16 bit carry look ahead adder/tb/cla16Tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|N:/Maven Silicon/try/16 bit carry look ahead adder/tb/cla16Tb.v|
+!i113 1
+R5
+R6
+ncla16@tb
+vcla4
+R0
+!i10b 1
+!s100 0hW4Ln=3f?<GVAln`DNW62
+IkVZWJPgUL1``XAzBbI@hW0
+R1
+R2
+w1786077399
+8N:/Maven Silicon/try/16 bit carry look ahead adder/rtl/cla4.v
+FN:/Maven Silicon/try/16 bit carry look ahead adder/rtl/cla4.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 N:/Maven Silicon/try/16 bit carry look ahead adder/rtl/cla4.v|
+!s90 -reportprogress|300|-work|work|-stats=none|N:/Maven Silicon/try/16 bit carry look ahead adder/rtl/cla4.v|
+!i113 1
+R5
+R6

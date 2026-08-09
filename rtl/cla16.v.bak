@@ -1,0 +1,52 @@
+
+module cla16(
+    input  [15:0] a,
+    input  [15:0] b,
+    input         cin,
+    output [15:0] sum,
+    output        cout
+);
+
+wire c1, c2, c3;
+
+// Bits 3:0
+cla4 CLA0(
+    .a0(a[0]),  .a1(a[1]),  .a2(a[2]),  .a3(a[3]),
+    .b0(b[0]),  .b1(b[1]),  .b2(b[2]),  .b3(b[3]),
+    .cin(cin),
+    .sum0(sum[0]), .sum1(sum[1]),
+    .sum2(sum[2]), .sum3(sum[3]),
+    .cout(c1)
+);
+
+// Bits 7:4
+cla4 CLA1(
+    .a0(a[4]),  .a1(a[5]),  .a2(a[6]),  .a3(a[7]),
+    .b0(b[4]),  .b1(b[5]),  .b2(b[6]),  .b3(b[7]),
+    .cin(c1),
+    .sum0(sum[4]), .sum1(sum[5]),
+    .sum2(sum[6]), .sum3(sum[7]),
+    .cout(c2)
+);
+
+// Bits 11:8
+cla4 CLA2(
+    .a0(a[8]),  .a1(a[9]),  .a2(a[10]), .a3(a[11]),
+    .b0(b[8]),  .b1(b[9]),  .b2(b[10]), .b3(b[11]),
+    .cin(c2),
+    .sum0(sum[8]), .sum1(sum[9]),
+    .sum2(sum[10]), .sum3(sum[11]),
+    .cout(c3)
+);
+
+// Bits 15:12
+cla4 CLA3(
+    .a0(a[12]), .a1(a[13]), .a2(a[14]), .a3(a[15]),
+    .b0(b[12]), .b1(b[13]), .b2(b[14]), .b3(b[15]),
+    .cin(c3),
+    .sum0(sum[12]), .sum1(sum[13]),
+    .sum2(sum[14]), .sum3(sum[15]),
+    .cout(cout)
+);
+
+endmodule
